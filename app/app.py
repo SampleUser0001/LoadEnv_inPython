@@ -1,1 +1,4 @@
-print('Hello Python on Docker!!')
+# -*- coding: utf-8 -*-
+import settings
+
+print(settings.ENV_DIC)
